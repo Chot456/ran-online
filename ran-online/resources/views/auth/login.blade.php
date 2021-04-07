@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.login-layout')
 
 @section('content')
 <div class="container">
@@ -36,17 +36,6 @@
                                         <strong>{{ $message }}</strong>
                                     </span>
                                 @enderror
-                            </div>
-                        </div>
-
-                        <div class="form-group row">
-                            <div class="col-md-6 offset-md-4">
-                                <div class="form-check">
-
-                                    <label class="form-check-label" for="remember">
-                                        No account? <a class="" href="{{ route('register') }}">Register</a>
-                                    </label>
-                                </div>
                             </div>
                         </div>
 
